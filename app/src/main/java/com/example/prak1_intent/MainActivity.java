@@ -12,13 +12,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
     public void BIODATA(View view) {
         Intent a = new Intent(MainActivity.this, BIODATA.class);
         startActivity(a);
     }
-    public void SEGITIGA (View View) {
-        Intent b = new Intent (MainActivity.this, SEGITIGA.class);
+    public void SEGITIGA(View view) {
+        Intent b = new Intent(MainActivity.this, SEGITIGA.class);
         startActivity(b);
     }
     }
